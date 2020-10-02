@@ -21,8 +21,12 @@ body{
 }
 
 #chatWindow{
-    height: 300px;
+    height: 400px;
+    max-width: 480px;
+    width: 480px;
+    font-size: large;
     overflow-y: scroll;
+    word-wrap: break-word;
 }
 
 #mainWrapper{
@@ -71,9 +75,12 @@ body{
 
 input{
     height: 30px;
+    width: 75%;
+    border-radius: 7px;
 }
 input[type="submit"]{
     border-radius: 7px;
+    width: 20%;
     border: none;
     cursor: pointer;
     color: white;
